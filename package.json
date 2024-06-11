@@ -4,6 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "node version.js && ng serve",
+    "docker": "node version.js && ng serve --host 0.0.0.0 --disable-host-check",
     "build": "node version.js && ng build --configuration production --build-optimizer --output-hashing=all",
     "test": "ng test",
     "lint": "ng lint",
